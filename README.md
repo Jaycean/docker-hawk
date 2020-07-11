@@ -26,7 +26,7 @@ Or build it from a clone of this repository:
             -v /etc/localtime:/etc/localtime:ro \
             -v /run/docker.sock:/run/docker.sock \
             -v /usr/bin/docker:/usr/bin/docker:ro \
-            --name hawk hawk
+            --name hawk krig/hawk
 
 Then (if this is the first cluster node), initialize the cluster:
 
